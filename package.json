@@ -1,0 +1,37 @@
+{
+  "name": "xmrjs",
+  "version": "0.0.1",
+  "description": "A library for interfacing with Monero from Node.js",
+  "keywords": [
+    "xmr",
+    "monero",
+    "lgpl",
+    "crypto",
+    "cryptocurrency",
+    "privacy"
+  ],
+  "homepage": "https://github.com/xmrsoftware/xmrjs",
+  "bugs": {
+    "url": "https://github.com/xmrsoftware/xmrjs/issues"
+  },
+  "engines": {
+    "node": ">=12.18.4",
+    "npm": "~6.14.6"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xmrsoftware/xmrjs.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "XMR Software",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
